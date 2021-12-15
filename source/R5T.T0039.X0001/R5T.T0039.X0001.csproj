@@ -1,11 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.T0034.X0001\source\R5T.T0034.X0001\R5T.T0034.X0001.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0039\source\R5T.T0039\R5T.T0039.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0045.X0001\source\R5T.T0045.X0001\R5T.T0045.X0001.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0045\source\R5T.T0045.X002\R5T.T0045.X002.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0058\source\R5T.T0058\R5T.T0058.csproj" />
+  </ItemGroup>
 
 </Project>
